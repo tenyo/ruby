@@ -7,7 +7,6 @@ class RomNum
   # does some basic validation, needs more
   def self.valid_roman?(numeral)
     
-
     single_numerals = @@NUMERALS.keys.select { |x| x.size == 1 }
 
     # can only contain the listed numerals

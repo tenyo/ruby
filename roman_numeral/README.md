@@ -1,7 +1,17 @@
-Coverter to/from Roman numerals (between 1 and 3999)
-based on http://rubyquiz.com/quiz22.html
+## Coverter to/from Roman numerals
+Based on http://rubyquiz.com/quiz22.html
 
-# demo the RomNum class
-ruby init.rb
+### To demo the RomNum class
+    $ ruby init.rb
 
+    Enter a number or roman numeral to convert: 
+    2014
+    MMXIV
+
+    Enter a number or roman numeral to convert: 
+    MDCLXVI
+    1666
+
+    Enter a number or roman numeral to convert: 
+    quit
 

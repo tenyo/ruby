@@ -3,6 +3,9 @@ Based on http://rubyquiz.com/quiz25.html
 
 Extends the Integer class with a to_eng method
 
+### Use in you app like this:
+    require 'integer_to_eng'
+
 ### Demo:
     $ ruby init.rb
 
@@ -18,3 +21,8 @@ Extends the Integer class with a to_eng method
     100000000000000
     one hundred trillion
     
+### A more useful case where we get the latest US public debt number from TreasuryDirect and spell it out:
+    $ ruby usdebt.rb 
+    The US debt is currently $17,258,482,479,004
+    That is seventeen trillion two hundred and fifty-eight billion four hundred and eighty-two million four hundred and seventy-nine thousand and four US Dollars 
+

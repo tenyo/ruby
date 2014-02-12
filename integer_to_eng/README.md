@@ -24,5 +24,5 @@ Extends the Integer class with a to_eng method
 ### A more useful case where we get the latest US public debt number from TreasuryDirect and spell it out:
     $ ruby usdebt.rb 
     The US debt is currently $17,258,793,918,103
-That is seventeen trillion two hundred fifty-eight billion seven hundred ninety-three million nine hundred eighteen thousand one hundred three US Dollars
+    That is seventeen trillion two hundred fifty-eight billion seven hundred ninety-three million nine hundred eighteen thousand one hundred three US Dollars
 

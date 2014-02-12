@@ -43,10 +43,7 @@ class Integer
     # call ourselves recursively for the quotient and remainder
     q, r = input.divmod(divisor)
     english_phrase << q.to_eng << " " << @@NUMBERS[divisor] << " "
-    if r > 0
-      english_phrase << "and " if r < 100
-      english_phrase << r.to_eng
-    end
+    english_phrase << r.to_eng if r > 0
 
     return english_phrase.split.join(" ")  # get rid of any multiple spaces
   end
